@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="14b24590-e865-4bd5-8106-58793edbb59d" ChangeDateTime="01/20/2021 10:54:54">
+    <Property Name="ElementName" Value="[dbo].[Role].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Role]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_Role" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0d009efb-544b-4681-b178-de2208b8f50e" ChangeDateTime="01/20/2021 11:01:22">
+    <Property Name="ElementName" Value="[dbo].[Member].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Member]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_Member" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6178bf73-455d-4b92-9faa-078801ad47f9" ChangeDateTime="01/20/2021 11:05:31">
+    <Property Name="ElementName" Value="[dbo].[UK_Member_Pseudo (Pseudo)]" />
+    <Property Name="ElementType" Value="SqlUniqueConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Member]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[UK_Member_Pseudo]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1824fae1-4838-463e-9ad1-a0d5417cae7c" ChangeDateTime="01/20/2021 11:09:16">
+    <Property Name="ElementName" Value="[dbo].[Rating].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Rating]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_Rating" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7dd217e5-fca4-46a5-8533-72ffc0a7b7b3" ChangeDateTime="01/20/2021 11:28:16">
+    <Property Name="ElementName" Value="[dbo].[Movie_Genre].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Movie_Genre]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_Movie" />
+  </Operation>
+</Operations>
